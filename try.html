@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            border: 2px solid green;
+        	width: 200px;
+        	height: 100px;
+        	margin-top: 20px;
+        	padding: 50px; 
+        }
+        .corner-each{
+            border-top-left-radius: 15px;
+        	border-top-right-radius: 50px;
+        	border-bottom-right-radius: 30px;
+        	border-bottom-left-radius: 5px;
+        }
+        .corner-4{
+            background-color: green;
+        	border-radius: 15px 50px 30px 5px;
+        }
+        
+        .two{
+             border-radius: 50% 30px;
+        }
+        
+    </style>
+</head>
+<body>
+   <div class="corner-each">
+    Hello
+   </div> 
+
+   <div class="corner-4">
+    hello
+   </div>
+
+   <div class="two">
+    if two values <br>
+    first is for top-left anf bottom-right <br>
+    second is for top-right and bottom-left
+   </div>
+
+   
+
+</body>
+</html>
